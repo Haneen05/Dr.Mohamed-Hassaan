@@ -1,0 +1,54 @@
+{
+  "flutter": {
+    "platforms": {
+      "ios": {
+        "default": {
+          "projectId": "islamic-scholar-58c30",
+          "appId": "1:594357834931:ios:3e0dba0229fa07f1e28cc6",
+          "uploadDebugSymbols": false,
+          "fileOutput": "ios/Runner/GoogleService-Info.plist"
+        }
+      },
+      "macos": {
+        "default": {
+          "projectId": "islamic-scholar-58c30",
+          "appId": "1:594357834931:ios:3e0dba0229fa07f1e28cc6",
+          "uploadDebugSymbols": false,
+          "fileOutput": "macos/Runner/GoogleService-Info.plist"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "islamic-scholar-58c30",
+          "configurations": {
+            "android": "1:594357834931:android:420f88ccb98216ece28cc6",
+            "ios": "1:594357834931:ios:3e0dba0229fa07f1e28cc6",
+            "web": "1:594357834931:web:55de4a22c9547f24e28cc6",
+            "windows": "1:594357834931:web:f1582759d5869ab9e28cc6"
+          }
+        }
+      },
+      "android": {
+        "default": {
+          "projectId": "islamic-scholar-58c30",
+          "appId": "1:594357834931:android:420f88ccb98216ece28cc6",
+          "fileOutput": "android/app/google-services.json"
+        }
+      }
+    }
+  },
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default",
+      "disallowLegacyRuntimeConfig": true,
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ]
+    }
+  ]
+}

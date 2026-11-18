@@ -1,0 +1,78 @@
+name: islamic_scholar_project
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_localizations:
+    sdk: flutter
+
+  firebase_core: ^4.13.0
+  firebase_auth: ^6.5.7
+  flutter_bloc: ^9.1.1
+  get_it: ^9.2.1
+  cloud_firestore: ^6.8.0
+  just_audio: ^0.10.5
+  path: ^1.9.1
+  qcf_quran: ^0.0.5
+  http: ^1.6.0
+  flutter_screenutil: ^5.9.3
+  sqflite: ^2.4.3
+  path_provider: ^2.1.6
+  firebase_storage: ^13.5.0
+  pdfrx: ^2.4.8
+  shared_preferences: ^2.5.5
+  video_player: ^2.14.0
+  firebase_messaging: ^16.6.0
+  flutter_local_notifications: ^19.4.1
+  timezone: ^0.10.1
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/images/quran/
+    - assets/icons/
+    - assets/quran/tafsir/ar-tafseer-al-saddi.db
+    - assets/quran/tafsir/ar-tafsir-ibn-kathir.db
+    # BOOKS
+    - assets/books/covers/aqeedah/haqiqat_al_tawhid/
+    - assets/books/pdfs/aqeedah/haqiqat_al_tawhid/
+    - assets/books/pdfs/akhirah/ahdath_al_nihaya/
+    - assets/books/covers/akhirah/ahdath_al_nihaya/
+    - assets/books/covers/dawah/khawatir_ala_tariq_al_dawah/
+    - assets/books/pdfs/dawah/khawatir_ala_tariq_al_dawah/
+    - assets/videos/thumbnails/programs/ahdath_al_nihaya/
+
+
+
+
+  fonts:
+    # ========================================================================
+    # APP FONT
+    # ========================================================================
+
+    - family: Cairo
+      fonts:
+        - asset: assets/fonts/Cairo-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Cairo-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Cairo-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Cairo-Bold.ttf
+          weight: 700
+
